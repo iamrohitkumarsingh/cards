@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Game - Player View</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Info Bar at the top -->
+    <div class="info-bar" id="info-bar">
+        Game Info: Round 1 | Player's Turn: Player 1
+    </div>
+
+    <!-- Play area in the middle -->
+    <div class="play-area" id="play-area">
+        <h2>Play Area</h2>
+        <div class="played-cards" id="played-cards">
+            <!-- Cards placed by all players will appear here -->
+        </div>
+    </div>
+
+    <!-- Player's cards at the bottom -->
+    <div class="player-section">
+        <div>
+            <div class="player-name" id="player-name">Player</div>
+            <div class="player-cards" id="player-cards">
+                <!-- Cards will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
